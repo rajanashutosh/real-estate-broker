@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.ProjectInfo;
 
+import java.util.List;
+
 public interface ProjectService {
-    ProjectInfo getProjectInfo();
+    List<ProjectInfo> getProjectInfo();
 
     ProjectInfo getProjectInfoById(String id);
 

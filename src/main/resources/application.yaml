@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: shoppingkart-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: shoppingkart
+
+logging:
+  level:
+    com.trimble.tcx: DEBUG
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG

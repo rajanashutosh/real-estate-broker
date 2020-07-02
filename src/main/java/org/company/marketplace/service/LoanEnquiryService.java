@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.LoanEnquiry;
 
+import java.util.List;
+
 public interface LoanEnquiryService {
-    LoanEnquiry getLoanEnquiries();
+    List<LoanEnquiry> getLoanEnquiries();
 
     LoanEnquiry getLoanEnquiryById(String id);
 

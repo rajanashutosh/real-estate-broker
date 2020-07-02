@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.User;
 
+import java.util.List;
+
 public interface UserService {
-    User getUsers();
+    List<User> getUsers();
 
     User getUserById(String id);
 

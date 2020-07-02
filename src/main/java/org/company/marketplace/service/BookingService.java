@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.BookingInfo;
 
+import java.util.List;
+
 public interface BookingService {
-    BookingInfo getBookings();
+    List<BookingInfo> getBookings();
 
     BookingInfo getBookingInfoById(String id);
 

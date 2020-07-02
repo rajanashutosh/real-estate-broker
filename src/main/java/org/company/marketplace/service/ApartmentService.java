@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.ApartmentInfo;
 
+import java.util.List;
+
 public interface ApartmentService {
-    ApartmentInfo getApartmentsByQueryParams(String criteria, String value);
+    List<ApartmentInfo> getApartmentsByQueryParams(String criteria, String value);
 
     ApartmentInfo getApartmentInfoById(String id);
 

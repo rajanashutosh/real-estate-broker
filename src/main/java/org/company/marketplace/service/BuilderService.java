@@ -2,8 +2,10 @@ package org.company.marketplace.service;
 
 import org.company.marketplace.model.dto.Builder;
 
+import java.util.List;
+
 public interface BuilderService {
-    Builder getBuilders();
+    List<Builder> getBuilders();
 
     Builder getBuilderById(String id);
 
