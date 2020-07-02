@@ -20,5 +20,5 @@ public class ProjectInfo {
     private ObjectId builderId;
     private String projectType;
     private String projectApprovalNo;
-    private Map<String, String> apartmentPlanCount;
+    private Map<String, Integer> apartmentPlanCount;
 }
