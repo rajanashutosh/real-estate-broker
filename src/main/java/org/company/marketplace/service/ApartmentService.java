@@ -9,9 +9,9 @@ public interface ApartmentService {
 
     ApartmentInfo getApartmentInfoById(String id);
 
-    ApartmentInfo saveApartmentInfo(ApartmentInfo ApartmentInfo);
+    ApartmentInfo saveApartmentInfo(ApartmentInfo apartmentInfo);
 
-    ApartmentInfo updateApartmentInfo(String id, ApartmentInfo ApartmentInfo);
+    ApartmentInfo updateApartmentInfo(String id, ApartmentInfo apartmentInfo);
 
     ApartmentInfo deleteApartmentInfo(String id);
 }

@@ -1,15 +1,8 @@
 package org.company.marketplace.repository;
 
+import org.bson.types.ObjectId;
 import org.company.marketplace.model.dto.ProjectInfo;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface ProjectRepository {
-    ProjectInfo getProjectInfo();
-
-    ProjectInfo getProjectInfoById(String id);
-
-    ProjectInfo saveProjectInfo(ProjectInfo ProjectInfo);
-
-    ProjectInfo updateProjectInfo(String id, ProjectInfo ProjectInfo);
-
-    ProjectInfo deleteProjectInfo(String id);
+public interface ProjectRepository extends MongoRepository<ProjectInfo, ObjectId> {
 }
